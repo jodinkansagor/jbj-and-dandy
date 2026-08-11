@@ -1,0 +1,25 @@
+.mainInvite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inviteImage {
+  height: 75%;
+  width: 75%;
+}
+
+.line {
+  border-top: 3px solid #71dee7;
+  width: 100%;
+  margin-bottom: 36px
+}
+
+.listOfStuff {
+  text-align: start;
+  width: 50%
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+}
