@@ -1,25 +1,27 @@
 .mainInvite {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  /* justify-content: center; */
   align-items: center;
+  height: 100vh;
+  padding: 0 24px
 }
 
 .inviteImage {
-  height: 75%;
-  width: 75%;
+  height: 100%
 }
 
 .line {
   border-top: 3px solid #71dee7;
   width: 100%;
-  margin-bottom: 36px
+  margin: 36px 0
 }
 
 .listOfStuff {
   text-align: start;
-  width: 50%
-  /* display: flex;
+}
+
+.orgs {
+  display: flex;
   flex-direction: column;
-  align-items: flex-start; */
 }

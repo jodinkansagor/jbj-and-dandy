@@ -23,6 +23,14 @@
   }
 }
 
+a {
+  color: #71dee7;
+  margin-bottom: 8px;
+}
+
+a:hover {
+  color: #fbb22f;
+}
 
 body {
   margin: 0;
