@@ -4,9 +4,6 @@ import './app.css'
 function App() {
 
   return (
-    <div className="cuntainer">
-
-
       <div className="mainInvite">
         <img src={inviteImage} className="inviteImage" />
         <div className="rightColumn">
@@ -46,7 +43,6 @@ function App() {
           </div>
         </div>
       </div >
-    </div>
 
   )
 }
