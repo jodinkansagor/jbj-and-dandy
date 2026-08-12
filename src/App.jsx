@@ -8,12 +8,11 @@ function App() {
       <img src={inviteImage} className="inviteImage" />
       <div className="rightColumn">
         <h2>We’re making it official!
-
         </h2>
         <h3>
-After a lucky 13 years, we are tying the knot and would love for you all to celebrate with us.
-</h3>
-      <hr className="line" />
+          After a lucky 13 years, we are tying the knot and would love for you all to celebrate with us.
+        </h3>
+        <hr className="line" />
         <ul className="listOfStuff">
           <li>Our home will be open for you all from 11am to 3pm. Brunch starts at 11am, ceremony at 12pm, cake at 1pm, and piñata at 2pm.
           </li>

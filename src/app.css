@@ -3,12 +3,14 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  padding: 0 24px
+  padding: 0 24px;
+  width: 100;
+  max-width: 1110px;
+  margin: 0 auto;
+
 }
 
 .inviteImage {
-  /* height: 100%; */
-  /* width: 100%; */
   width: 90vw
 }
 
@@ -35,8 +37,16 @@ li {
   padding-top: 4px
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1147px) {
   .mainInvite {
-    flex-direction: column;
+    flex-direction: row;
+  }
+
+  .inviteImage {
+    height: 100%;
+  }
+
+  ul {
+    padding-inline-start: 36px;
   }
 }
