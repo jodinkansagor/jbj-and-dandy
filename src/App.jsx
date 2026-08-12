@@ -4,8 +4,12 @@ import './app.css'
 function App() {
 
   return (
+
     <div className="mainInvite">
+      <div className="leftColumn">
+
       <img src={inviteImage} className="inviteImage" />
+      </div>
       <div className="rightColumn">
         <h2>We’re making it official!
         </h2>
@@ -43,6 +47,7 @@ function App() {
         </div>
       </div>
     </div >
+          
   )
 }
 

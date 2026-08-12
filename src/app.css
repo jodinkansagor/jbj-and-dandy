@@ -7,7 +7,8 @@
   width: 100;
   max-width: 1110px;
   margin: 0 auto;
-
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .inviteImage {
@@ -27,6 +28,7 @@
 .orgs {
   display: flex;
   flex-direction: column;
+  padding-bottom: 16px;
 }
 
 ul {
@@ -38,15 +40,40 @@ li {
 }
 
 @media screen and (min-width: 1147px) {
+  /* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    overflow: auto
+  } */
   .mainInvite {
     flex-direction: row;
+    align-items: flex-start;
+    /* height: 100vh;
+    overflow-y: auto; */
+    
+  }
+
+  .leftColumn {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .inviteImage {
-    height: 100%;
+    height: 615px;
+    width: 440px
   }
+
 
   ul {
     padding-inline-start: 36px;
   }
+
+  .orgs {
+    padding-bottom: 0px
+  }
+
 }
