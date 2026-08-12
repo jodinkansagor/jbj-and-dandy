@@ -40,26 +40,11 @@ li {
 }
 
 @media screen and (min-width: 1147px) {
-  /* .container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 100%;
-    overflow: auto
-  } */
+ 
   .mainInvite {
     flex-direction: row;
     align-items: flex-start;
-    /* height: 100vh;
-    overflow-y: auto; */
     
-  }
-
-  .leftColumn {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .inviteImage {
