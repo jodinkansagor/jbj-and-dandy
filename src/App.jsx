@@ -6,7 +6,6 @@ function App() {
   return (
 
     <div className="mainInvite">
-
       <img src={inviteImage} className="inviteImage" />
       <div className="rightColumn">
         <h2>We’re making it official!
